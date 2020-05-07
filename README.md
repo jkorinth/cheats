@@ -13,3 +13,10 @@ Command | Description
 `Select-String`| `grep` 
 `Remove-Item -Force -Recurse`| `rm -rf`
 
+## xkbmap
+
+Toggle german/english keyboard layout with right shift, deactivate caps lock:
+
+`setxkbmap -option grp:rshift_toggle,grp_led:scroll us,de -option caps:none`
+
+Or: use `~/.Xkbmap` with just `-option grp:rshift_toggle,grp_led:scroll us,de -option caps:none`.
