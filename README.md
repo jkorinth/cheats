@@ -35,3 +35,8 @@ Or: use `~/.Xkbmap` with just `-option grp:rshift_toggle,grp_led:scroll us,de -o
 [4]: https://code.visualstudio.com/
 [5]: https://www.nurgo-software.com/products/aquasnap
 [6]: https://www.rainmeter.net/
+
+## Hyper-V
+
+`PS> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
+
