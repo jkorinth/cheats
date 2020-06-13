@@ -40,3 +40,17 @@ Or: use `~/.Xkbmap` with just `-option grp:rshift_toggle,grp_led:scroll us,de -o
 
 `PS> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
 
+## Python Libraries
+
+ * `bokeh` - viz
+ * `tqdm` - terminal progress bars
+ * `dominate` - html generator
+ * `requests` - get/post socket stuff
+ * `websockets` - simple JS compatible server
+ * `beautifulsoup4` - html parser/scraper
+ * `jsonpickle` - pickle with JSON
+ 
+## C++ Libraries
+
+ * [Taskflow](https://github.com/taskflow/taskflow) - Modern C++ parallel
+ 
