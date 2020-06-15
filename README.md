@@ -20,6 +20,7 @@ Command | Description
 `Get-ChildItem`| `ls`
 `Select-String`| `grep` 
 `Remove-Item -Force -Recurse`| `rm -rf`
+`[System.Environment]::SetEnvironmentVariable(var, val, [System.EnvironmentVariableTarget]::User)`| Set env var permanently (short and simple, as always)
 
 ## xkbmap
 
